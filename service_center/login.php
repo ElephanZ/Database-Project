@@ -19,17 +19,18 @@
 <!DOCTYPE html>
 <html translate="no">
     <head>
-		<meta charset="utf-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <meta name="author" content="Antonio Scardace">
         
         <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="src/css/font-awesome/all.css">
         <link rel="stylesheet" href="src/css/main.css">
-        <link rel="stylesheet" href="src/css/login.css">
+        <link rel="stylesheet" href="src/css/create.css">
 
-		<title>Sign In</title>
+	<title>Create Operation</title>
     </head>
     <body>
 
