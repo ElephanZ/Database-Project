@@ -3,14 +3,14 @@
 	require_once 'Database.php';
 
 	class Operation {
-		private $db;
+	private $db;
 
-		public function __construct() {
-			$this->db = new Database;
-		}
+	public function __construct() {
+	    $this->db = new Database;
+	}
 
-		private function getId() {
-            return $this->db->lastId();
+	private function getId() {
+    	    return $this->db->lastId();
         }
 
         public function get($what) {
