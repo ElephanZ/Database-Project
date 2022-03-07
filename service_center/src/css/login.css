@@ -1,0 +1,27 @@
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+    margin-top: 20%;
+}
+
+form {
+    width: 500px;
+
+    margin-top: 45px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn {
+    margin-top: 7px;
+
+    padding: 0.8rem 0;
+    width: 100%;
+    
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+}

@@ -1,0 +1,27 @@
+.container {
+    margin-top: 5%;   
+    max-width: 90%!important;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3.25rem;
+    margin-bottom: 4%;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #c15858;
+
+    margin-bottom: 13px;
+}
+
+.col {
+    text-align: center;
+}
+.col p {
+    letter-spacing: 0.5px;
+}
