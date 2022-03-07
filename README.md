@@ -11,7 +11,7 @@ _Dept of Math and Computer Science, University of Catania_
 This project contains the conceptual, logical and physical design tactics, for the development of a database created for the management of data and daily and analytical operations in an IT company (of the whole company, the project focuses on the assistance center specialized in PCs, Printers and Smartphones).
 The base will not be put into production at the end of the exam.
 
-![er](/images/er.jpg)
+![er](/images/er.png)
 
 The professor has requested:
 * a detailed report of how the database has been created (it is in italian)
