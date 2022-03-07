@@ -1,0 +1,124 @@
+INSERT INTO client VALUES ('SCRNTN01C29C351C', 'Antonio', 'Scardace', '2001-03-29');
+INSERT INTO client VALUES ('RSSMRA80R10C351X', 'Mario', 'Rossi', '1980-10-10');
+INSERT INTO client VALUES ('BNCLSS96B04G273Q', 'Alessio', 'Bianchi', '1996-02-04');
+INSERT INTO client VALUES ('VRDCLD00E43C351A', 'Claudia', 'Verdi', '2000-05-03');
+INSERT INTO client VALUES ('RSSMTN01B67C351M', 'Martina', 'Rossi', '2001-02-27');
+
+INSERT INTO contact VALUES ('antonio.scardace03@gmail.com', 'email');
+INSERT INTO contact VALUES ('3249875612', 'phone');
+INSERT INTO contact VALUES ('3332221155', 'phone');
+INSERT INTO contact VALUES ('3884156321', 'phone');
+INSERT INTO contact VALUES ('3354126789', 'phone');
+
+INSERT INTO own VALUES ('SCRNTN01C29C351C', 'antonio.scardace03@gmail.com');
+INSERT INTO own VALUES ('SCRNTN01C29C351C', '3249875612');
+INSERT INTO own VALUES ('BNCLSS96B04G273Q', '3332221155');
+INSERT INTO own VALUES ('RSSMRA80R10C351X', '3884156321');
+INSERT INTO own VALUES ('RSSMTN01B67C351M', '3884156321');
+INSERT INTO own VALUES ('VRDCLD00E43C351A', '3354126789');
+
+INSERT INTO device VALUES ('000123', 'Asus', 'A98H', 'notebook', 'BNCLSS96B04G273Q');
+INSERT INTO device VALUES ('111444', 'Dell', 'D567J', 'notebook', 'VRDCLD00E43C351A');
+INSERT INTO device VALUES ('222ABC', 'Lenovo', 'L123Y', 'desktop', 'RSSMRA80R10C351X');
+INSERT INTO device VALUES ('333XYZ', 'Xiaomi', 'Mi A2', 'smartphone', 'SCRNTN01C29C351C');
+INSERT INTO device VALUES ('EEE444', 'Xiaomi', 'Redmi Note 7', 'smartphone', 'RSSMTN01B67C351M');
+INSERT INTO device VALUES ('55FFAS', 'Samsung', 'BXHPRT44', 'printer', 'BNCLSS96B04G273Q');
+
+INSERT INTO technician VALUES ('BRBGPP90S19C351G', 'Giuseppe', 'Barbaro', '1990-11-19', '2015-04-18', 8, '0fa3c82b1dcd0b2c9efa017a7bedc7fc'); /* psw: progetto */
+INSERT INTO technician VALUES ('DMNMSM84A02C351O', 'Massimo', 'Damiano', '1984-01-02', '2017-09-27', 8, '11e0eed8d3696c0a632f822df385ab3c'); /* psw: database */
+
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 1, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 1, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 1, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 1, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 1, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 2, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 2, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 2, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 2, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 2, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 3, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 3, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 3, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 3, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 3, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 4, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 4, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 4, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 4, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 4, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 5, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 5, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 5, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 5, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 5, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 6, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 6, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 6, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 6, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 6, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 7, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 7, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 7, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 7, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (1, 7, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 1, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 1, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 1, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 1, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 1, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 2, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 2, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 2, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 2, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 2, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 3, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 3, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 3, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 3, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 3, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 4, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 4, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 4, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 4, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 4, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 5, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 5, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 5, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 5, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 5, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 6, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 6, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 6, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 6, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 6, 5);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 7, 1);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 7, 2);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 7, 3);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 7, 4);
+INSERT INTO slot (wall, colmn, rw) VALUES (2, 7, 5);
+
+INSERT INTO operation (date_pickup, date_delivery, total_cost, vat, labor, slot_id, device_id, technician_id) VALUES ('2022-02-01 11:15:41', '2022-02-10 16:30:07', 39.99, 22, 27, 20, '000123', 'DMNMSM84A02C351O');
+INSERT INTO operation (date_pickup, date_delivery, total_cost, vat, labor, slot_id, device_id, technician_id) VALUES ('2022-02-01 11:38:01', '2022-02-10 11:09:46', 19.6, 22, 27, 54, '111444', 'BRBGPP90S19C351G');
+INSERT INTO operation (date_pickup, date_delivery, total_cost, vat, labor, slot_id, device_id, technician_id) VALUES ('2022-02-02 09:54:33', '2022-02-11 18:44:31', 26.3, 22, 27, 56, '222ABC', 'BRBGPP90S19C351G');
+INSERT INTO operation (date_pickup, date_delivery, total_cost, vat, labor, slot_id, device_id, technician_id) VALUES ('2022-02-02 10:41:05', '2022-02-11 12:29:54', 7.9, 22, 27, 21, '333XYZ', 'BRBGPP90S19C351G');
+INSERT INTO operation (date_pickup, vat, labor, slot_id, device_id, technician_id) VALUES ('2022-02-03 08:37:12', 22, 27, 8, 'EEE444', 'DMNMSM84A02C351O');
+INSERT INTO operation (date_pickup, vat, labor, slot_id, device_id, technician_id) VALUES ('2022-02-03 10:55:16', 22, 27, 16, '55FFAS', 'BRBGPP90S19C351G');
+
+INSERT INTO accessory VALUES ('borsa porta PC', 1, '111444', 'rosa con dei disegni neri');
+
+INSERT INTO reparation (trouble, note, operation_id) VALUES ('il sistema è lento', 'bisogna fare un check-up ed uno scan antivirus', 1);
+INSERT INTO reparation (trouble, note, operation_id) VALUES ('compaiono delle strane scritte', 'bisogna fare uno scan antivirus', 1);
+INSERT INTO reparation (trouble, note, operation_id) VALUES ('cambio sistema operativo a Windows 11 Pro', '', 1);
+INSERT INTO reparation (trouble, note, operation_id) VALUES ('non funziona il tasto di accensione', '', 3);
+INSERT INTO reparation (trouble, note, operation_id) VALUES ('si spegne da solo', 'accade solo alcune volte', 3);
+INSERT INTO reparation (trouble, note, operation_id) VALUES ('non si carica', '', 4);
+INSERT INTO reparation (trouble, note, operation_id) VALUES ('non funziona il jack audio', '', 2);
+INSERT INTO reparation (trouble, note, operation_id) VALUES ('si riscalda troppo', 'la ventola fa anche rumore: controllo pulizia', 2);
+INSERT INTO reparation (trouble, note, operation_id) VALUES ('schermo scheggiato', 'la frattura non è profonda: riparabile', 5);
+INSERT INTO reparation (trouble, note, operation_id) VALUES ('il tasto del volume non funziona quasi mai', '', 6);
+
+INSERT INTO material VALUES ('MCSWND11', 'Windows 11 Pro', 39.99, '', 3);
+INSERT INTO material VALUES ('XYZ123KK', 'alimentatore', 26.3, '500W', 5);
+INSERT INTO material VALUES ('ABC610MP', 'connettore jack audio', 19.6, '', 7);
+INSERT INTO material VALUES ('CRT574BT', 'connettore per la ricarica', 7.9, '', 6);
