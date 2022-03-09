@@ -60,6 +60,7 @@ So that the repository is successfully cloned and simulator run smoothly, a few 
    SOURCE PROJECT_PATH_IN_YOUR_PC\src\schema.sql;
    SOURCE PROJECT_PATH_IN_YOUR_PC\src\data.sql;
    SOURCE PROJECT_PATH_IN_YOUR_PC\src\triggers.sql;
+   SOURCE PROJECT_PATH_IN_YOUR_PC\src\functions.sql;
 ``` 
 
 ## License
