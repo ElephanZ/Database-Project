@@ -23,22 +23,6 @@ SELECT o.technician_id, o.date_pickup, r.trouble, s.wall, s.rw, s.colmn, d.sn, d
 FROM operation o JOIN reparation r ON r.operation_id = o.id JOIN device d ON d.sn = o.device_id JOIN client c ON c.fc = d.client_id JOIN own ON c.fc = own.client_id JOIN slot s ON s.id = o.slot_id
 WHERE o.id = 7;
 
--- ----------------------------------------------------
-
-DELIMITER $$  
-
-DROP FUNCTION IF EXISTS calculateVAT $$
-CREATE FUNCTION calculateVAT(cost DECIMAL(5, 2), labor INT(3), vat INT(2)) RETURNS DECIMAL(6, 2)
-BEGIN
-    DECLARE amount DECIMAL(6, 2) DEFAULT (labor + cost);
-    DECLARE calculated_vat DECIMAL(6, 2) DEFAULT ((amount * vat) / 100);
-    RETURN amount + calculated_vat;
-END$$
-
-DELIMITER ; 
-
--- ----------------------------------------------------
-
 /* Op. 6 */
 
 SELECT MONTH(CURRENT_DATE()) AS mese_corrente, SUM(calculateVAT(total_cost, labor, vat)) AS costo_mensile
