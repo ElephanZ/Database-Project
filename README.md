@@ -30,7 +30,7 @@ I've implemented 9 queries (sql/queries.sql_):
 9. Find the most expensive surgery of the current month
 
 And 3 triggers:
-1. Update _total_cost_ in _Operation_ every time a new material is inserted in _Material_ among those useful for the repair.
+1. Update _total_cost_ in _Operation_ every time a material is inserted in _Material_ among those useful for the repair.
 2. Update _total_cost_ in _Operation_ every time a material useful for repair is deleted in _Material_.
 3. Prevents the insertion of a device into an already occupied slot.
 
