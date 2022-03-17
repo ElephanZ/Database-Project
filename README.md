@@ -16,7 +16,7 @@ The base will not be put into production at the end of the exam.
 The professor has requested:
 * a detailed report of how the database has been created (it is in italian)
 * a set of four SQL files to create, populate, and interact with the database.
-* an optional GUI (_/service_center/_)
+* an optional GUI (implemented but not included in this repo)
 
 I've implemented 9 queries (sql/queries.sql_):
 1. Adds a new client with relative contact
@@ -43,7 +43,6 @@ So that the repository is successfully cloned and simulator run smoothly, a few 
 * Needs to have [MySQL Client](https://www.mysql.com/downloads/) installed or in any case to have a MySQL database available.
 * Need to download and install [MySQL Client](https://www.mysql.com/downloads/).
 * The use of [Visual Studio Code](https://code.visualstudio.com/download) is recommended for read and modify.
-* The use of [XAMPP](https://www.apachefriends.org/download.html) is recommended for run and test.
 
 ### Installation
 
