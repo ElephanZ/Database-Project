@@ -12,6 +12,7 @@ This project contains the conceptual, logical and physical design tactics, for t
 The base will not be put into production at the end of the exam.
 
 ![er](/images/er.png)
+
 ![er](/images/logico.png)
 
 The professor has requested:
