@@ -52,11 +52,7 @@ So that the repository is successfully cloned and simulator run smoothly, a few 
 ```sh
    git clone https://github.com/ElephanZ/Database-Project.git
 ``` 
-2. Open MySQL Client and set these parameters:
-```sh
-   username = "root" | password = ""
-```
-3. Then, import Database in this way through MySQL Command Line
+2. Then, import Database in this way through MySQL Command Line
 ```sql
    SOURCE PROJECT_PATH_IN_YOUR_PC\src\schema.sql;
    SOURCE PROJECT_PATH_IN_YOUR_PC\src\data.sql;
