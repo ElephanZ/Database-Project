@@ -20,7 +20,7 @@ The professor has requested:
 * a set of four SQL files to create, populate, and interact with the database.
 * an optional GUI (implemented but not included in this repo)
 
-I've implemented 9 queries (sql/queries.sql_):
+I've implemented 9 queries (_sql/queries.sql_):
 1. Adds a new client with relative contact
 2. Adds a new device
 3. Adds a new operation with relative reparations
