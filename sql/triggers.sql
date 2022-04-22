@@ -1,6 +1,6 @@
 DELIMITER $$  
 
-/* T1 */
+-- Update total_cost in Operation every time a material is inserted in Material among those useful for the repair. 
 
 CREATE TRIGGER total_cost_update_i
 AFTER INSERT ON material
@@ -11,7 +11,7 @@ BEGIN
     WHERE NEW.reparation_id = r.id AND r.operation_id = o.id;
 END$$
 
-/* T2 */
+-- Update total_cost in Operation every time a material useful for repair is deleted in Material.
 
 CREATE TRIGGER total_cost_update_d
 AFTER DELETE ON material
@@ -22,7 +22,7 @@ BEGIN
     WHERE OLD.reparation_id = r.id AND r.operation_id = o.id;
 END$$
 
-/* T3 */
+-- Prevents the insertion of a device into an already occupied slot.
 
 CREATE TRIGGER check_slot_empty
 BEFORE INSERT ON operation
