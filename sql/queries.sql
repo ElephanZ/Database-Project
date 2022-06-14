@@ -1,22 +1,3 @@
--- Add a new client with relative contact
-
-INSERT INTO client VALUES ('CSTDNL66B45C351T', 'Daniela', 'Castello', '1966-02-05');
-INSERT INTO contact VALUES ('dani.castello@libero.it', 'email');
-INSERT INTO own VALUES ('CSTDNL66B45C351T', 'dani.castello@libero.it');
-
--- Add a new device
-
-INSERT INTO device VALUES ('XHG90RR', 'Apple', 'iPhone XR 64G', 'smartphone', 'CSTDNL66B45C351T');
-
--- Add a new operation with relative reparations
-
-INSERT INTO operation (vat, labor, slot_id, device_id, technician_id) VALUES (22, 27, 54, 'XHG90RR', 'DMNMSM84A02C351O');
-INSERT INTO reparation (trouble, note, operation_id) VALUES ('vetro frantumato', 'in alcuni punti il touch funziona ancora', 7);
-
--- Adds a new material to its reparation
-
-INSERT INTO material VALUES ('APPLVTR', 'schermo di ricambio', 51.5, '', 10);
-
 -- Get data correlate to operation
 
 SELECT o.technician_id, o.date_pickup, r.trouble, s.wall, s.rw, s.colmn, d.sn, d.brand, d.model, c.fc, c.name, c.surname, own.contact_id
