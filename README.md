@@ -43,7 +43,6 @@ So that the repository is successfully cloned and simulator run smoothly, a few 
 ### Prerequisites
 
 * Needs to have [MySQL Client](https://www.mysql.com/downloads/) installed or in any case to have a MySQL available.
-* Need to download and install [MySQL Client](https://www.mysql.com/downloads/).
 * The use of [Visual Studio Code](https://code.visualstudio.com/download) is recommended for read and modify.
 
 ### Installation
