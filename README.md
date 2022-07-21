@@ -8,7 +8,7 @@ _Dept of Math and Computer Science, University of Catania_
 
 ## Introduction
 
-This project contains the conceptual, logical and physical design tactics, for the development of a database created for the management of data and daily and analytical operations in an IT company (of the whole company, the project focuses on the assistance center specialized in PCs, Printers and Smartphones).
+This project contains the conceptual, logical and physical design tactics, for the development of a database created for the management of data and daily and analytical operations in an IT company (of the whole company, the project focuses on the assistance center specialized in PCs, Printers and Smartphones). <br/>
 The base will not be put into production at the end of the exam.
 
 ![er](/images/er.png)
@@ -20,7 +20,7 @@ The professor has requested:
 * a set of four SQL files to create, populate, and interact with the database.
 * an optional GUI (implemented but not included in this repo)
 
-I've implemented 9 queries (_sql/queries.sql_):
+I have implemented 9 queries (_sql/queries.sql_):
 1. Adds a new client with relative contact
 2. Adds a new device
 3. Adds a new operation with relative reparations
@@ -42,7 +42,7 @@ So that the repository is successfully cloned and simulator run smoothly, a few 
 
 ### Prerequisites
 
-* Needs to have [MySQL Client](https://www.mysql.com/downloads/) installed or in any case to have a MySQL available.
+* Need to download and install [MySQL Client](https://www.mysql.com/downloads/).
 * The use of [Visual Studio Code](https://code.visualstudio.com/download) is recommended for read and modify.
 
 ### Installation
